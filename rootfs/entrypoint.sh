@@ -2,6 +2,7 @@
 
 # Generate host keys if not present
 ssh-keygen -A
+mkdir -p /run/sshd
 
 # Set root password to empty
 SSH_ROOT_PASSWORD="$SSH_ROOT_PASSWORD"
